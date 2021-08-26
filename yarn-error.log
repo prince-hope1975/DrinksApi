@@ -1,0 +1,62 @@
+Arguments: 
+  /home/prince/.nvm/versions/node/v15.13.0/bin/node /home/prince/.nvm/versions/node/v15.13.0/bin/yarn add react-router-dom
+
+PATH: 
+  /home/prince/.nvm/versions/node/v15.13.0/bin:/home/prince/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/mssql-tools/bin:/opt/mssql-tools/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  15.13.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: getaddrinfo EAI_AGAIN registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:69:26)
+
+npm manifest: 
+  {
+    "name": "reminder",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "@testing-library/jest-dom": "^4.2.4",
+      "@testing-library/react": "^9.5.0",
+      "@testing-library/user-event": "^7.2.1",
+      "react": "^16.13.1",
+      "react-dom": "^16.13.1",
+      "react-router": "^5.2.0",
+      "react-router-dom": "^5.2.0",
+      "react-scripts": "3.4.3"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "CI= react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+      "extends": "react-app"
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
